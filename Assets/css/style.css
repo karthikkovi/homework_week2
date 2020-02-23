@@ -4,6 +4,12 @@ body {
     background-color: grey;
 }
 
+/* NavBar */
+.navbarBrand {
+    background-color: rgb(58, 163, 128);
+    color: white !important;
+    height: 100%;
+}
 .mainContainer{
     background-color: white;
     margin-top: 3rem;
