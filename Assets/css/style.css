@@ -6,13 +6,29 @@ body {
 
 /* NavBar */
 .navbarBrand {
-    background-color: rgb(58, 163, 128);
     color: white !important;
-    height: 100%;
+    font-size: 1.75rem;
 }
+
+.brandHolder {
+    background-color: rgb(58, 163, 128);
+    margin-left: 6.5rem;
+    padding-top: 0.25rem;
+    padding-left: 0.75rem;
+    height: 4rem;
+}
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav > li{
+    margin-right: 3rem;
+  }
+  
+
 .mainContainer{
     background-color: white;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 .aboutMeH1 {
     color: rgb(33, 140, 228);
