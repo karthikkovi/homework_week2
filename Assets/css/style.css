@@ -43,8 +43,8 @@ body {
     background-color: white;
     margin-top: 1.5rem;
 }
-.aboutMeH1 {
-    color: rgb(33, 140, 228);
+.aboutMeH1, .contactHeading {
+    color: rgb(58, 163, 128);
     margin-bottom: 1rem;
     margin-top: 1.5rem;
 }
