@@ -5,6 +5,7 @@ body {
 }
 
 /* NavBar */
+
 .navbarBrand {
     color: white !important;
     font-size: 1.75rem;
@@ -20,7 +21,6 @@ body {
 .navbar {
     padding: 0;
 }
-
 
   
 @media only screen and (min-width: 768px) {
@@ -39,6 +39,12 @@ body {
     }
 }
 
+/* mainContainer */
+
+hr{
+    border-top: 2px solid grey;
+}
+
 .mainContainer{
     background-color: white;
     margin-top: 1.5rem;
@@ -47,6 +53,12 @@ body {
     color: rgb(58, 163, 128);
     margin-bottom: 1rem;
     margin-top: 1.5rem;
+}
+
+.customSubmit {
+    background-color: rgb(58, 163, 128);
+    border: none;
+    border-radius: 0;
 }
 
 /* footer section */
