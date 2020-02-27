@@ -21,10 +21,23 @@ body {
     padding: 0;
 }
 
-.navbar-nav > li{
-    margin-right: 3rem;
-  }
+
   
+@media only screen and (min-width: 768px) {
+    .navbar-nav > li{
+        margin-right: 3rem;
+      }
+
+      .brandHolder {
+          margin-left: 2.5rem;
+      }
+}
+
+@media only screen and (min-width: 980px){
+    .brandHolder {
+        margin-left: 6.5rem;
+    }
+}
 
 .mainContainer{
     background-color: white;
