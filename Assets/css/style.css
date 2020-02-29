@@ -9,13 +9,12 @@ body {
 .navbarBrand {
     color: white !important;
     font-size: 1.75rem;
+    text-align: center;
 }
 
 .brandHolder {
     background-color: rgb(58, 163, 128);
-    margin-left: 6.5rem;
     padding-top: 0.25rem;
-    padding-left: 0.75rem;
     height: 4rem;
 }
 .navbar {
@@ -49,6 +48,7 @@ hr{
     background-color: white;
     margin-top: 1.5rem;
 }
+
 .aboutMeH1, .contactHeading {
     color: rgb(58, 163, 128);
     margin-bottom: 1rem;
@@ -59,6 +59,12 @@ hr{
     background-color: rgb(58, 163, 128);
     border: none;
     border-radius: 0;
+}
+
+/* Images */
+
+.portfolioImage {
+    width: 100%;
 }
 
 /* footer section */
@@ -75,8 +81,4 @@ hr{
     border-color: aqua;
     border-width: 0.5rem 0 0 0;
     margin-top: 8rem;
-}
-
-.portfolioImage {
-    width: 100%;
 }
