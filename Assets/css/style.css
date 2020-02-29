@@ -21,23 +21,6 @@ body {
     padding: 0;
 }
 
-  
-@media only screen and (min-width: 768px) {
-    .navbar-nav > li{
-        margin-right: 3rem;
-      }
-
-      .brandHolder {
-          margin-left: 1.5rem;
-      }
-}
-
-@media only screen and (min-width: 968px){
-    .brandHolder {
-        margin-left: 8rem;
-    }
-}
-
 /* mainContainer */
 
 hr{
@@ -46,13 +29,10 @@ hr{
 
 .mainContainer{
     background-color: white;
-    margin-top: 1.5rem;
 }
 
 .aboutMeH1, .contactHeading {
     color: rgb(58, 163, 128);
-    margin-bottom: 1rem;
-    margin-top: 1.5rem;
 }
 
 .customSubmit {
@@ -61,7 +41,7 @@ hr{
     border-radius: 0;
 }
 
-/* Images */
+/* Portfolio Images */
 
 .portfolioImage {
     width: 100%;
@@ -90,9 +70,7 @@ hr{
     text-align: center;
     color: white;
     height: 4rem;
-    padding-top: 1.25rem;
     border-style: solid;
     border-color: aqua;
     border-width: 0.5rem 0 0 0;
-    margin-top: 8rem;
 }
